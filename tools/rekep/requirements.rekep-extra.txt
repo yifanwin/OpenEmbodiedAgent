@@ -1,0 +1,12 @@
+imageio
+kmeans-pytorch
+matplotlib
+numba
+openai>=1.30
+opencv-python-headless>=4.10
+parse
+pyyaml
+pyzmq
+scikit-learn
+scipy
+trimesh

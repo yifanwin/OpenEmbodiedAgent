@@ -121,9 +121,14 @@ pip install -e .
 # Run with simulation driver (default)
 python hal/hal_watchdog.py --driver simulation
 
+# Run with real ReKep driver (OpenClaw migration)
+python hal/hal_watchdog.py --driver rekep_real
+
 # In another terminal, start the brain
 OEA agent
 ```
+
+ReKep real-runtime usage details: `tools/rekep/README.md`
 
 ## 7. Testing Contract
 
@@ -253,9 +258,14 @@ pip install -e .
 # 使用仿真驱动运行 (默认)
 python hal/hal_watchdog.py --driver simulation
 
+# 使用 ReKep 真机驱动运行（OpenClaw 迁移版）
+python hal/hal_watchdog.py --driver rekep_real
+
 # 在另一个终端启动大脑
 nanobot agent
 ```
+
+ReKep 真机运行说明：`tools/rekep/README.md`
 
 ## 7. 测试合约
 

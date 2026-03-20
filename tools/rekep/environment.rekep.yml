@@ -1,0 +1,20 @@
+name: rekep
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - imageio
+  - matplotlib
+  - numba
+  - numpy
+  - pyyaml
+  - scipy
+  - trimesh
+  - pip:
+      - kmeans-pytorch
+      - openai>=1.30
+      - opencv-python-headless>=4.10
+      - parse
+      - scikit-learn

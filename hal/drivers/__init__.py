@@ -21,6 +21,7 @@ from hal.base_driver import BaseDriver
 DRIVER_REGISTRY: dict[str, str] = {
     "simulation":  "hal.drivers.simulation_driver.SimulationDriver",
     "go2_edu":     "hal.drivers.go2_driver.Go2Driver",
+    "rekep_real":  "hal.drivers.rekep_real_driver.ReKepRealDriver",
     # Future drivers — uncomment when implemented:
     # "desktop_pet": "hal.drivers.desktop_pet_driver.DesktopPetDriver",
     # "dobot_nova5": "hal.drivers.dobot_driver.DobotDriver",
