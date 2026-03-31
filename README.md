@@ -1,6 +1,6 @@
 <div align="center">
   <img src="docs/imgs/PhyAgentOS.png" alt="PhyAgentOS" width="500">
-  <h1>OpenEmbodiedAgent (OEA)</h1>
+  <h1>Physical Agent Operation System (PhyAgentOS)</h1>
   <p><b>A Decoupled Protocol-Based Framework for Self-Evolving and Cross-Embodiment Agents</b></p>
   <p>
     <a href="./README.md">English</a> | <a href="./README_zh.md">中文</a>
