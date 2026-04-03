@@ -55,6 +55,9 @@ PhyAgentOS utilizes a **"State-as-a-File"** protocol matrix, natively supporting
   PhyAgentOS achieves realtime dialog and natural language-driven pick&up task through ReKep (Franka Research 3).
 </div>
 
+## Long Demo    
+<video src="[https://your-server.com/path-to-your-long-video.mp4](https://youtu.be/LtUWamZRyhM?si=UjKNdqFnO1knfWbX)" width="100%" controls="controls"></video>
+
 ## 🏗️ Architecture
 
 PhyAgentOS's core is a local workspace where software and hardware operate as independent daemons reading/writing files:
